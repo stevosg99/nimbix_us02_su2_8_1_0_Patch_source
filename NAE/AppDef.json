@@ -3,7 +3,7 @@
     "description": "Multiphysics Simulation and Design Software",
     "author": "SU2 Foundation",
     "licensed": true,
-    "appdefversion": 2,
+    "appdefversion": 1,
     "classifications": [
         "Simulation",
         "Simulation/Computational Fluid Dynamics",
@@ -20,8 +20,8 @@
     ],
     "commands": {
         "Batch": {
-            "path": "/opt/init.sh",
-	    "interactive": true,
+            "path": "/home/nimbix/data/init.sh",
+	    "interactive": false,
             "name": "SU2 Batch",
             "description": "Run a batch command using /bin/bash.  Path must be specified within /data.",
             "parameters": {
